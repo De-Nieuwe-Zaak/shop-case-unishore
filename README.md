@@ -62,7 +62,7 @@ These requirements can be implemented in any order, maybe not all can be impleme
 
 ### Additional Notes
 
-- You are free to use any library for styling (e.g., CSS modules, styled-components).
+- You are free to use any library for styling (e.g., CSS modules, styled-components, tailwind).
 - Aim for a balance between functionality and code quality within the given time frame.
 - Utilize the existing Redux store setup; do not create a new store.
 

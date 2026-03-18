@@ -9,19 +9,19 @@ export default function Header() {
         <div className="flex flex-wrap items-center gap-2 text-white max-md:max-w-full">
           <img
             loading="lazy"
-            src="./check.svg"
+            src="/check.svg"
             className="object-contain w-5 my-auto shrink-0 aspect-square"
           />
           <div>verzendkosten €3,95 vanaf €225,-</div>
           <img
             loading="lazy"
-            src="./check.svg"
+            src="/check.svg"
             className="object-contain w-5 my-auto shrink-0 aspect-square"
           />
           <div>Snelle levering</div>
           <img
             loading="lazy"
-            src="./check.svg"
+            src="/check.svg"
             className="object-contain w-5 my-auto shrink-0 aspect-square"
           />
           <div>Gratis retourneren</div>

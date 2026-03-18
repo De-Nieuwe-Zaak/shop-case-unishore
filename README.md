@@ -1,69 +1,39 @@
-### Task: Implement a Product Lister with Redux Toolkit
+### Shop Case — Unishore Frontend Assessment
 
-### Objective
+Welcome! This case asks you to build a product lister using React, TypeScript, and Redux Toolkit.
 
-Implement a basic, working product lister component in a React application using Typescript and Redux Toolkit. The API for fetching product data is available, and a base React app and Redux store have been set up.
+Before you start, pick the track that matches the role you are applying for and follow the corresponding README.
 
-### Fake Store API
+---
 
-https://fakestoreapi.com/docs
+### Choose Your Track
 
-### Filtering
+| | [Junior](README.junior.md) | [Medior](README.medior.md) | [Senior](README.senior.md) |
+|---|---|---|---|
+| **Time limit** | 1.5 hours | 2 hours | 2 hours |
+| **TypeScript** | Optional (JS fallback allowed) | Required | Required, strict — no `any` |
+| **Redux thunk** | Optional (direct API call allowed) | Required | Required |
+| **State shape** | Basic array | Basic array | Normalized (`createEntityAdapter`) |
+| **Selectors** | Not required | Encouraged | Required (`createSelector`) |
+| **Cart wired to UI** | Not required | Yes, basic | Yes, with quantity |
+| **Category filtering** | Not required | Yes | Yes |
+| **Search** | Not required | Not required | Yes |
+| **localStorage persistence** | Not required | Not required | Yes |
+| **Custom hooks** | Not required | Not required | Yes |
+| **Unit tests** | Not required | Not required | Yes |
+| **Error boundary** | Not required | Not required | Yes |
+| **Loading state** | Basic | Basic | Skeleton cards |
+| **Responsive layout** | Not required | Not required | Yes |
 
-The filter section is not part of the task !
+---
 
-### Focus Areas
+### Getting Started
 
-1. **Design Implementation:** Follow the provided design for the product lister closely.
-2. **Typescript Usage:** Use Typescript for defining types, interfaces, and Redux slices.
-3. **Code Quality:** Maintain clean, readable, and reusable code with proper comments and adherence to best practices.
+Make sure you have Node.js 21 installed (or use `nvm use`), then run:
 
-### Requirements
-
-These requirements can be implemented in any order, maybe not all can be implemented in the given time frame so focus on your strengths.
-
-1. **Design Implementation:**
-
-   - Follow the design from the provided image/figma file to ensure the product lister component matches the look and feel, including spacing, fonts, and alignment.
-   - Implement a grid layout to display the products. Each product should show an image, name, description, and price.
-   - The Design can be found in de design directory
- 
-
-2. **Typescript Usage:**
-
-   - Define types or interfaces for product data, Redux state, and actions.
-   - Use Typescript for all new components, slices, and hooks to ensure type safety.
-   - If U are not comfortable with Typescript please use JavaScript instead.
-
-3. **Fetch Data using Redux Toolkit:**
-
-   - Connect the `ProductLister` component to the Redux store.
-   - Dispatch the thunk action to fetch products when the component is mounted.
-   - Use `useSelector` to get products, loading state, and error state from the Redux store.
-   - If redux is not your strong suit, you can call the API directly from the component.
-
-4. **Code Quality:**
-   - Use functional components, hooks, and Redux best practices.
-   - Write clean, maintainable code with proper comments.
-   - Use proper file structure, modularize code, and follow naming conventions.
-
-### Deliverables
-
-- A `ProductLister` component implemented in Typescript and integrated with Redux Toolkit.
-- A new Redux slice (`productSlice.ts`) for managing product data fetching.
-- Integration with the provided API to fetch and display products.
-- Styling and layout that match the provided design.
-- Basic error handling and loading states.
-- A README file with instructions on how to run and test the component.
-
-### Time Limit
-
-1.5 hours
-
-### Additional Notes
-
-- You are free to use any library for styling (e.g., CSS modules, styled-components, tailwind).
-- Aim for a balance between functionality and code quality within the given time frame.
-- Utilize the existing Redux store setup; do not create a new store.
+```bash
+npm install
+npm run dev
+```
 
 Good Luck! 🚀

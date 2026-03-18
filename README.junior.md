@@ -32,16 +32,19 @@ The filter sidebar visible in the design mockup is not part of this task — you
 These requirements can be implemented in any order, maybe not all can be implemented in the given time frame so focus on your strengths.
 
 1. **Design Implementation:**
+
    - Follow the design from the provided image/figma file to ensure the product lister component matches the look and feel, including spacing, fonts, and alignment.
    - Implement a grid layout to display the products. Each product should show an image, name, description, and price.
    - The design files can be found in the `design` directory.
 
 2. **Typescript Usage:**
+
    - Define types or interfaces for product data, Redux state, and actions.
    - Use Typescript for all new components, slices, and hooks to ensure type safety.
    - If you are not comfortable with Typescript, please use JavaScript instead.
 
 3. **Fetch Data using Redux Toolkit:**
+
    - Connect the `ProductLister` component to the Redux store.
    - Dispatch the thunk action to fetch products when the component is mounted.
    - Use `useSelector` to get products, loading state, and error state from the Redux store.
@@ -71,5 +74,7 @@ These requirements can be implemented in any order, maybe not all can be impleme
 - You are also free to use any other styling library (e.g., CSS modules, styled-components).
 - Aim for a balance between functionality and code quality within the given time frame.
 - Utilize the existing Redux store setup; do not create a new store.
+
+When you're done, please zip the whole project and send it to pieter@denieuwezaak.nl
 
 Good Luck! 🚀
